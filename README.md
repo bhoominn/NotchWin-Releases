@@ -43,18 +43,7 @@ If <kbd>Win</kbd> + <kbd>`</kbd> is taken by another program, use <kbd>Ctrl</kbd
 - **To-do list, focus timer (Pomodoro) and a water reminder.**
 - **Clock and world clock:** several clock styles, and up to 8 cities.
 - **System:** live CPU and RAM, and a button that gives back unused memory.
-- **Stays out of the way:** it hides while a fullscreen app or game is in front, and fades away over
-  browser tabs at the top of the screen until you pause on the top edge.
-
-Everything can be arranged in **Deck > Settings**: hide, show and reorder pages, tabs and cards, change the
-clock, sleep and glow delays, and more. You can also pick the monitor and the gap from the top edge from the
-right-click menu.
-
-## Coming in the next update
-
-These are built but **not in the current download yet**; they will arrive with the next version.
-
-- **Dev tab** in the Deck, all running on your PC (nothing you type is sent anywhere or stored):
+- **Dev tab:** a calculator and developer tools, all running on your PC (nothing you type is sent anywhere or stored).
   - **Calculator:** a keypad with a live answer, brackets, square root, powers, sin, cos, tan, logs, memory keys
     and a history you can click to bring a sum back. Percent works like a real calculator (`200 + 10%` is 220).
     You can also just type on your keyboard.
@@ -66,12 +55,18 @@ These are built but **not in the current download yet**; they will arrive with t
     and your activity over the last 30 days. Click a repository to open it.
   - **Vercel:** the latest deployment of each of your projects, and whether it is ready, building or failed.
   - **Cloudflare:** the same for your Cloudflare Pages projects.
-- **A status dot on the pill:** red when something is failing, amber while a build or deployment is running,
-  green when everything passes. It shows only while one of these is connected.
-- **Failure alerts:** the pill tells you when a repository's CI or a deployment starts failing.
+- **Status dot and failure alerts:** a dot on the pill is red when something is failing, amber while a build or
+  deployment is running and green when everything passes (it shows only while one of these is connected), and the
+  pill tells you when a repository's CI or a deployment starts failing.
 - **Background checks:** while a service is connected, NotchWin reads it every 10 minutes so the dot and the
   alerts stay current. Turn this off in **Deck > Settings > General > Background checks**; the dot and alerts
   then update only when you open the Glance or the Dev tab.
+- **Stays out of the way:** it hides while a fullscreen app or game is in front, and fades away over
+  browser tabs at the top of the screen until you pause on the top edge.
+
+Everything can be arranged in **Deck > Settings**: hide, show and reorder pages, tabs and cards, change the
+clock, sleep and glow delays, and more. You can also pick the monitor and the gap from the top edge from the
+right-click menu.
 
 ## License
 
@@ -98,7 +93,7 @@ Windows account only. It connects to the internet only to:
 - check and renew your license, and look for updates (`notchwin.vercel.app`);
 - fetch song lyrics (title, artist, album and length only, from lrclib.net);
 - read your AI usage from each tool's own service, using the sign-in that tool already has (never stored or sent anywhere else);
-- *(next update)* read your GitHub, Vercel or Cloudflare status from `api.github.com`, `api.vercel.com` or
+- read your GitHub, Vercel or Cloudflare status from `api.github.com`, `api.vercel.com` or
   `api.cloudflare.com`, but only for a service you connect. The token you paste is checked with that service,
   kept only if it is accepted, stored encrypted for your Windows account only, and sent to that service and
   nowhere else. **Deck > Dev > Disconnect** deletes it.
