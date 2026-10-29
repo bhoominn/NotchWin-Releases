@@ -36,13 +36,19 @@ If <kbd>Win</kbd> + <kbd>`</kbd> is taken by another program, use <kbd>Ctrl</kbd
 - **Clipboard history:** text, links, code and images you copy, searchable, click to copy back. Items that
   password managers mark private are never recorded, and you can pause recording from the menu.
 - **File shelf:** drag files onto the notch to park them, drag them out to any app later.
+- **Tray tab:** every shelved file in one grid, with image tools right on the tile:
+  - **Convert** an image between PNG, JPG and BMP (the original is never changed).
+  - **Compress** a PNG or JPG without changing a single pixel (**Exact**), or shrink a PNG much further with
+    **Tiny**, which reduces its colours the way TinyPNG does. The result is saved as a new file next to the original.
 - **Music:** controls, album art, progress and synced lyrics for whatever is playing in Windows.
 - **Alerts on the pill:** volume, brightness, Caps Lock, charger, battery, network and Bluetooth, plus your
   Windows notifications (shown in the Deck's Alerts tab).
 - **AI usage:** how much of your Claude, Codex, Cursor and Grok limits you have left, and a click to open each app.
-- **To-do list, focus timer (Pomodoro) and a water reminder.**
+- **To-do list, focus timer and a water reminder.** The focus timer is a Pomodoro with focus, short break and
+  long break; it waits for you when time is up.
+- **Calendar:** a month view with public holidays for your country (chosen in **Deck > Settings > Calendar**).
 - **Clock and world clock:** several clock styles, and up to 8 cities.
-- **System:** live CPU and RAM, and a button that gives back unused memory.
+- **System:** live CPU and RAM usage, and a **RAM cleaner** button that gives back unused memory (it never closes anything).
 - **Dev tab:** a calculator and developer tools, all running on your PC (nothing you type is sent anywhere or stored).
   - **Calculator:** a keypad with a live answer, brackets, square root, powers, sin, cos, tan, logs, memory keys
     and a history you can click to bring a sum back. Percent works like a real calculator (`200 + 10%` is 220).
@@ -63,6 +69,10 @@ If <kbd>Win</kbd> + <kbd>`</kbd> is taken by another program, use <kbd>Ctrl</kbd
   then update only when you open the Glance or the Dev tab.
 - **Stays out of the way:** it hides while a fullscreen app or game is in front, and fades away over
   browser tabs at the top of the screen until you pause on the top edge.
+
+**Your own shortcuts:** in **Deck > Settings > Shortcuts**, give any Deck tab its own keyboard shortcut (for
+example Ctrl + Alt + M for Media) and it opens straight to that tab from anywhere; press it again to close.
+If another program already uses a combination, NotchWin tells you and keeps the old one.
 
 Everything can be arranged in **Deck > Settings**: hide, show and reorder pages, tabs and cards, change the
 clock, sleep and glow delays, and more. You can also pick the monitor and the gap from the top edge from the
