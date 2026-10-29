@@ -72,7 +72,11 @@ right-click menu.
 
 NotchWin needs a license key from Gumroad. Open the Deck, click **Paste**, and the key is activated for this
 PC. To move NotchWin to another PC, use **Deck > Settings > License > Remove from this PC** first (or "Move it
-here" on the new PC). Lost your key? Find it in your [Gumroad library](https://gumroad.com/library).
+here" on the new PC, up to 2 moves a month). Lost your key? Find it in your [Gumroad library](https://gumroad.com/library).
+
+One key works on one PC at a time. NotchWin checks the license quietly once a day and keeps working offline
+for up to 14 days; after that it asks you to reconnect. Keep your PC's date and time correct: if the clock is
+set back, NotchWin locks until it is right again.
 
 ## Updates
 
