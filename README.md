@@ -80,7 +80,7 @@ right-click menu.
 
 ## License
 
-NotchWin needs a license key from Gumroad. Open the Deck, click **Paste**, and the key is activated for this
+NotchWin is a one-time purchase: no subscription. It needs a license key from Gumroad. Open the Deck, click **Paste**, and the key is activated for this
 PC. To move NotchWin to another PC, use **Deck > Settings > License > Remove from this PC** first (or "Move it
 here" on the new PC, up to 2 moves a month). Lost your key? Find it in your [Gumroad library](https://gumroad.com/library).
 
@@ -101,7 +101,7 @@ interrupts you.
 
 ## Privacy
 
-NotchWin keeps your data on your PC. Clipboard history, to-dos and the license are stored encrypted for your
+NotchWin keeps your data on your PC. There is no account to create and no tracking or analytics. Clipboard history, to-dos and the license are stored encrypted for your
 Windows account only. It connects to the internet only to:
 
 - check and renew your license, and look for updates;
