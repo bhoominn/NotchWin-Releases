@@ -104,7 +104,7 @@ interrupts you.
 NotchWin keeps your data on your PC. Clipboard history, to-dos and the license are stored encrypted for your
 Windows account only. It connects to the internet only to:
 
-- check and renew your license, and look for updates (`notchwin.vercel.app`);
+- check and renew your license, and look for updates;
 - fetch song lyrics (title, artist, album and length only, from lrclib.net);
 - read your AI usage from each tool's own service, using the sign-in that tool already has (never stored or sent anywhere else);
 - read your GitHub, Vercel or Cloudflare status from `api.github.com`, `api.vercel.com` or
