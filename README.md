@@ -50,6 +50,29 @@ Everything can be arranged in **Deck > Settings**: hide, show and reorder pages,
 clock, sleep and glow delays, and more. You can also pick the monitor and the gap from the top edge from the
 right-click menu.
 
+## Coming in the next update
+
+These are built but **not in the current download yet**; they will arrive with the next version.
+
+- **Dev tab** in the Deck, all running on your PC (nothing you type is sent anywhere or stored):
+  - **Calculator:** a keypad with a live answer, brackets, square root, powers, sin, cos, tan, logs, memory keys
+    and a history you can click to bring a sum back. Percent works like a real calculator (`200 + 10%` is 220).
+    You can also just type on your keyboard.
+  - **JSON** (format or minify), **Base64** and **URL** (encode or decode), **JWT** (read the header and
+    payload and see when it expires), **UUID** (a fresh random one) and **Hash** (MD5, SHA-1, SHA-256, SHA-512).
+- **GitHub, Vercel and Cloudflare status**, in the same Dev tab. Connect each one by creating a token on its
+  website and pasting it (the Dev tab links to the right page and lists the permissions to give):
+  - **GitHub:** your most recently pushed repositories with their open pull requests and whether CI is passing,
+    and your activity over the last 30 days. Click a repository to open it.
+  - **Vercel:** the latest deployment of each of your projects, and whether it is ready, building or failed.
+  - **Cloudflare:** the same for your Cloudflare Pages projects.
+- **A status dot on the pill:** red when something is failing, amber while a build or deployment is running,
+  green when everything passes. It shows only while one of these is connected.
+- **Failure alerts:** the pill tells you when a repository's CI or a deployment starts failing.
+- **Background checks:** while a service is connected, NotchWin reads it every 10 minutes so the dot and the
+  alerts stay current. Turn this off in **Deck > Settings > General > Background checks**; the dot and alerts
+  then update only when you open the Glance or the Dev tab.
+
 ## License
 
 NotchWin needs a license key from Gumroad. Open the Deck, click **Paste**, and the key is activated for this
@@ -74,9 +97,13 @@ Windows account only. It connects to the internet only to:
 
 - check and renew your license, and look for updates (`notchwin.vercel.app`);
 - fetch song lyrics (title, artist, album and length only, from lrclib.net);
-- read your AI usage from each tool's own service, using the sign-in that tool already has (never stored or sent anywhere else).
+- read your AI usage from each tool's own service, using the sign-in that tool already has (never stored or sent anywhere else);
+- *(next update)* read your GitHub, Vercel or Cloudflare status from `api.github.com`, `api.vercel.com` or
+  `api.cloudflare.com`, but only for a service you connect. The token you paste is checked with that service,
+  kept only if it is accepted, stored encrypted for your Windows account only, and sent to that service and
+  nowhere else. **Deck > Dev > Disconnect** deletes it.
 
-It does not log your keys, and it uses no keyboard hook.
+It does not log your keys or tokens, and it uses no keyboard hook.
 
 ## Start with Windows / quit / uninstall
 
