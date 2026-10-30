@@ -4,7 +4,7 @@ A notch for the top of your Windows screen. A small pill shows the time and batt
 pages, open it for a full workspace. Smooth, true-black, and light on your PC (typically under 20 MB of memory when idle).
 
 **Download:** the latest `notchwin.exe` is on the [Releases](../../releases/latest) page.
-**Buy a license:** [NotchWin on Gumroad](https://bhoominn.gumroad.com/l/bkuad)
+**Buy a license:** [NotchWin on Gumroad](https://bhoominn.gumroad.com/l/notchwin)
 
 ## Install
 
