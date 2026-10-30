@@ -61,6 +61,14 @@ If <kbd>Win</kbd> + <kbd>`</kbd> is taken by another program, use <kbd>Ctrl</kbd
     and your activity over the last 30 days. Click a repository to open it.
   - **Vercel:** the latest deployment of each of your projects, and whether it is ready, building or failed.
   - **Cloudflare:** the same for your Cloudflare Pages projects.
+- **Gumroad sales and RevenueCat subscriptions**, in the same Dev tab. Connect each by pasting a token or key
+  (the Dev tab explains where to create it and what to type in the forms):
+  - **Gumroad:** sales for today, the last 7 days and the last 30 days, for all products or one at a time.
+    Customer names and e-mail addresses are never read.
+  - **RevenueCat:** active subscriptions, trials and revenue. Connect up to 3 projects (one key each) and
+    view them together or one by one. **Disconnect** removes only the project you chose.
+- **Sale and subscriber alerts:** a green alert on the pill when a new Gumroad sale or a new RevenueCat
+  subscriber arrives. Nothing is announced for what was already there when you connected.
 - **Status dot and failure alerts:** a dot on the pill is red when something is failing, amber while a build or
   deployment is running and green when everything passes (it shows only while one of these is connected), and the
   pill tells you when a repository's CI or a deployment starts failing.
@@ -107,8 +115,8 @@ Windows account only. It connects to the internet only to:
 - check and renew your license, and look for updates;
 - fetch song lyrics (title, artist, album and length only, from lrclib.net);
 - read your AI usage from each tool's own service, using the sign-in that tool already has (never stored or sent anywhere else);
-- read your GitHub, Vercel or Cloudflare status from `api.github.com`, `api.vercel.com` or
-  `api.cloudflare.com`, but only for a service you connect. The token you paste is checked with that service,
+- read your GitHub, Vercel, Cloudflare, Gumroad or RevenueCat data from `api.github.com`, `api.vercel.com`,
+  `api.cloudflare.com`, `api.gumroad.com` or `api.revenuecat.com`, but only for a service you connect. The token you paste is checked with that service,
   kept only if it is accepted, stored encrypted for your Windows account only, and sent to that service and
   nowhere else. **Deck > Dev > Disconnect** deletes it.
 
