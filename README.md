@@ -46,7 +46,8 @@ If <kbd>Win</kbd> + <kbd>`</kbd> is taken by another program, use <kbd>Ctrl</kbd
   Windows notifications (shown in the Deck's Alerts tab).
 - **AI usage:** how much of your Claude, Codex, Cursor and Grok limits you have left, and a click to open each app.
 - **To-do list, focus timer and a water reminder.** The focus timer is a Pomodoro with focus, short break and
-  long break; it waits for you when time is up.
+  long break; it waits for you when time is up. During a focus session the pill shows the time left, with a red
+  focus mark, instead of the clock.
 - **Calendar:** a month view with public holidays for your country (chosen in **Deck > Settings > Calendar**).
 - **Clock and world clock:** several clock styles, and up to 8 cities.
 - **System:** live CPU and RAM usage, and a **RAM cleaner** button that gives back unused memory (it never closes anything).
