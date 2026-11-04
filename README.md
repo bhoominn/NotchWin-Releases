@@ -86,7 +86,7 @@ If <kbd>Win</kbd> + <kbd>`</kbd> is taken by another program, use <kbd>Ctrl</kbd
 example Ctrl + Alt + M for Media) and it opens straight to that tab from anywhere; press it again to close.
 If another program already uses a combination, NotchWin tells you and keeps the old one.
 
-Everything can be arranged in **Deck > Settings**: hide, show and reorder pages, tabs and cards, change the
+Everything can be arranged in **Deck > Settings**: hide, show and reorder pages, tabs and cards (drag a chip, or use its arrows), change the
 clock, sleep and glow delays, and more. You can also pick the monitor and the gap from the top edge from the
 right-click menu.
 
