@@ -33,7 +33,8 @@ If <kbd>Win</kbd> + <kbd>`</kbd> is taken by another program, use <kbd>Ctrl</kbd
 
 ## What it does
 
-- **Clipboard history:** text, links, code and images you copy, searchable, click to copy back. Items that
+- **Clipboard history:** text, links, code and images you copy, colour-coded by kind (links in blue with their site
+  name), searchable, click to copy back. Items that
   password managers mark private are never recorded, and you can pause recording from the menu.
 - **File shelf:** drag files onto the notch to park them, drag them out to any app later.
 - **Tray tab:** every shelved file in one grid, with image tools right on the tile:
@@ -125,6 +126,8 @@ It does not log your keys or tokens, and it uses no keyboard hook.
 ## Start with Windows / quit / uninstall
 
 - **Start with Windows:** right-click > **Start with Windows**.
+- **Hide the notch:** right-click the notch or the tray icon > **Hide notch**. Bring it back with **Show notch** or a
+  click on the tray icon.
 - **Quit:** right-click > **Quit NotchWin**.
 - **Uninstall:** turn off *Start with Windows*, quit, then delete `%LOCALAPPDATA%\Programs\NotchWin`.
   Settings and data live in `%APPDATA%\NotchWin` and `%LOCALAPPDATA%\NotchWin`; delete them too for a clean removal.
