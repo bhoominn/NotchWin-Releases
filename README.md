@@ -126,8 +126,8 @@ It does not log your keys or tokens, and it uses no keyboard hook.
 ## Start with Windows / quit / uninstall
 
 - **Start with Windows:** right-click > **Start with Windows**.
-- **Hide the notch:** right-click the notch or the tray icon > **Hide notch**. Bring it back with **Show notch** or a
-  click on the tray icon.
+- **Hide the notch:** right-click the notch or the tray icon > **Hide notch**. It shrinks to a thin line at the top of
+  the screen; click the line (or the tray icon) to bring it back.
 - **Quit:** right-click > **Quit NotchWin**.
 - **Uninstall:** turn off *Start with Windows*, quit, then delete `%LOCALAPPDATA%\Programs\NotchWin`.
   Settings and data live in `%APPDATA%\NotchWin` and `%LOCALAPPDATA%\NotchWin`; delete them too for a clean removal.
