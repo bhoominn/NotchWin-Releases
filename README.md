@@ -68,6 +68,9 @@ If <kbd>Win</kbd> + <kbd>`</kbd> is taken by another program, use <kbd>Ctrl</kbd
     Customer names and e-mail addresses are never read.
   - **RevenueCat:** active subscriptions, trials and revenue. Connect up to 3 projects (one key each) and
     view them together or one by one. **Disconnect** removes only the project you chose.
+- **Sales card on the Home tab:** all your connected stores in one total, with a bar showing each store's share
+  and a row for Gumroad and RevenueCat. Click a row to open that store in the Dev tab. Totals are added up only
+  when they are in the same currency.
 - **Sale and subscriber alerts:** a green alert on the pill when a new Gumroad sale or a new RevenueCat
   subscriber arrives. Nothing is announced for what was already there when you connected.
 - **Status dot and failure alerts:** a dot on the pill is red when something is failing, amber while a build or
