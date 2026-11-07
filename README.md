@@ -107,7 +107,7 @@ NotchWin checks for a newer version about 45 seconds after it starts and then on
 downloaded, verified and swapped in quietly; it takes effect the next time NotchWin starts. Nothing
 interrupts you.
 
-- Check by hand: **Deck > Settings > License > Check for updates**, or right-click > **Check for updates now**.
+- Check by hand: **Deck > Settings > About > Check for updates**, or right-click > **Check for updates now**.
 - Use it right away: once a new version is downloaded, the button becomes **Restart now** (or right-click >
   **Restart to update**). NotchWin closes and opens again on the new version.
 - Turn it off: right-click > untick **Update automatically**.
