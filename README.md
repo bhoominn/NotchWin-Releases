@@ -51,6 +51,8 @@ If <kbd>Win</kbd> + <kbd>`</kbd> is taken by another program, use <kbd>Ctrl</kbd
 - **Calendar:** a month view with public holidays for your country (chosen in **Deck > Settings > Calendar**).
 - **Clock and world clock:** several clock styles, and up to 8 cities.
 - **System:** live CPU and RAM usage, and a **RAM cleaner** button that gives back unused memory (it never closes anything).
+  A CPU graph of the last minute, the programs using the most memory, and (on laptops) your battery: how long since
+  you last charged, how long you have run on battery this session, and a graph of how fast it drains.
 - **Dev tab:** a calculator and developer tools, all running on your PC (nothing you type is sent anywhere or stored).
   - **Calculator:** a keypad with a live answer, brackets, square root, powers, sin, cos, tan, logs, memory keys
     and a history you can click to bring a sum back. Percent works like a real calculator (`200 + 10%` is 220).
